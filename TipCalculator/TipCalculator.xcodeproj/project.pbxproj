@@ -58,13 +58,10 @@
 		52B05F6C1DD6529700DFCD27 /* TipCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				52B05F701DD6529700DFCD27 /* AppDelegate.h */,
-				52B05F711DD6529700DFCD27 /* AppDelegate.m */,
-				52B05F731DD6529700DFCD27 /* ViewController.h */,
-				52B05F741DD6529700DFCD27 /* ViewController.m */,
-				52B05F761DD6529700DFCD27 /* Main.storyboard */,
-				52B05F791DD6529700DFCD27 /* Assets.xcassets */,
-				52B05F7B1DD6529700DFCD27 /* LaunchScreen.storyboard */,
+				52B05F871DD6548F00DFCD27 /* View */,
+				52B05F861DD6548200DFCD27 /* Controller */,
+				52B05F851DD6547A00DFCD27 /* Model */,
+				52B05F841DD6547500DFCD27 /* UI */,
 				52B05F7E1DD6529700DFCD27 /* Info.plist */,
 				52B05F6D1DD6529700DFCD27 /* Supporting Files */,
 			);
@@ -74,9 +71,44 @@
 		52B05F6D1DD6529700DFCD27 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				52B05F791DD6529700DFCD27 /* Assets.xcassets */,
 				52B05F6E1DD6529700DFCD27 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		52B05F841DD6547500DFCD27 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				52B05F761DD6529700DFCD27 /* Main.storyboard */,
+				52B05F7B1DD6529700DFCD27 /* LaunchScreen.storyboard */,
+			);
+			name = UI;
+			sourceTree = "<group>";
+		};
+		52B05F851DD6547A00DFCD27 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				52B05F701DD6529700DFCD27 /* AppDelegate.h */,
+				52B05F711DD6529700DFCD27 /* AppDelegate.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		52B05F861DD6548200DFCD27 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				52B05F731DD6529700DFCD27 /* ViewController.h */,
+				52B05F741DD6529700DFCD27 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		52B05F871DD6548F00DFCD27 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
